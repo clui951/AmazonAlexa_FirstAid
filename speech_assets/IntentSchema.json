@@ -47,6 +47,9 @@
 		},
 		{
 			"intent": "FirstAidMainIntent"
+		},
+		{
+			"intent": "HelpIntent"
 		}
 	]
 }

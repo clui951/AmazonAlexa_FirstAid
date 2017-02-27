@@ -64,7 +64,21 @@ def on_intent(intent_request, session):
         GLOBAL_ATTRIBUTES["EXPLAINED_COMPRESSION"] = False
         GLOBAL_ATTRIBUTES["EXPLAINED_BREATH"] = False
         return get_welcome_response()
+    elif intent_name == "HelpIntent":
+        return HelpIntent()
 
+
+def HelpIntent():
+    session_attributes = {}
+    card_title = "CPR"
+    reprompt_text = ""
+    should_end_session = False
+    speech_output = "You can say I need help with any of the following. "
+    events = ["Checking an Injured Adult", "Choking", "CPR", "AED", "Controlling Bleeding", "Burns", "Poisoning", "Neck Injuries", "Spinal Injuries", "Stroke"]
+    for event in events:
+        speech_output += event
+        speech_output += ". "
+    return build_response(session_attributes, build_speechlet_response(card_title, speech_output, reprompt_text, should_end_session))
 
 def CPRStopYesIntent():
     session_attributes = {}

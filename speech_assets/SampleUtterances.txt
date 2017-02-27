@@ -1,4 +1,6 @@
 FirstAidIntent I need help with {FirstAidItem}
+FirstAidIntent someone is {FirstAidItem}
+FirstAidIntent they're {FirstAidItem}
 
 CPRReadyIntent ready
 CPRDoneIntent done
@@ -12,3 +14,5 @@ CPRStopNoIntent no
 
 
 FirstAidMainIntent main menu
+
+HelpIntent what can I say
