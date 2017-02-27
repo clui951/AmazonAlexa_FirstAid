@@ -1,0 +1,37 @@
+{
+	"intents": [
+		{
+			"intent": "FirstAidIntent",
+			"slots": [
+				{
+					"name": "FirstAidItem",
+					"type": "LIST_OF_FIRST_AID_ITEMS"
+				}
+			]
+		},
+		{
+			"intent": "CPRIntent"
+		},
+		{
+			"intent": "CPRStepIntent",
+			"slots": [
+				{
+					"name": "CPRStep",
+					"type": "LIST_OF_CPR_STEPS"
+				}
+			]
+		},
+		{
+			"intent": "CPRExplainIntent",
+			"slots": [
+				{
+					"name": "CPRStep",
+					"type": "LIST_OF_CPR_STEPS"
+				}
+			]
+		},
+		{
+			"intent": "FirstAidMainIntent"
+		},
+	]
+}

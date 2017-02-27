@@ -1,0 +1,12 @@
+LIST_OF_FIRST_AID_ITEMS
+
+Checking an Injured Adult
+Choking
+CPR
+AED
+Controlling Bleeding
+Burns
+Poisoning
+Neck Injuries
+Spinal Injuries
+Stroke

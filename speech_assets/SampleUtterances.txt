@@ -1,0 +1,14 @@
+FirstAidIntent I need help with {FirstAidItem}
+
+CPRIntent ready
+CPRIntent done
+CPRIntent restart
+CPRStepIntent restart {CPRStep}
+CPRExplainIntent how do I do {CPRStep}
+CPRIntent stop CPR
+CPRIntent quit CPR
+CPRIntent yes
+CPRIntent no
+
+
+FirstAidMainIntent main menu

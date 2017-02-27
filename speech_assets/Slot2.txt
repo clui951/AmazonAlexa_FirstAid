@@ -1,0 +1,6 @@
+LIST_OF_CPR_STEPS
+
+chest compressions
+compressions
+rescue breaths
+breaths
