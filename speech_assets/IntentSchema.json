@@ -10,13 +10,13 @@
 			]
 		},
 		{
-			"intent": "CPRReadyIntent",
+			"intent": "CPRReadyIntent"
 		},
 		{
-			"intent": "CPRDoneIntent",
+			"intent": "CPRDoneIntent"
 		},
 		{
-			"intent:": "CPRRestartIntent"
+			"intent": "CPRRestartIntent"
 		},
 		{
 			"intent": "CPRStepIntent",
@@ -47,6 +47,6 @@
 		},
 		{
 			"intent": "FirstAidMainIntent"
-		},
+		}
 	]
 }
